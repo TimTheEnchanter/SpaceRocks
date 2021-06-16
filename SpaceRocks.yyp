@@ -1,11 +1,12 @@
 {
   "resources": [
     {"id":{"name":"obj_ship","path":"objects/obj_ship/obj_ship.yy",},"order":0,},
+    {"id":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},"order":1,},
     {"id":{"name":"ship","path":"sprites/ship/ship.yy",},"order":0,},
     {"id":{"name":"medium_asteroid","path":"sprites/medium_asteroid/medium_asteroid.yy",},"order":2,},
     {"id":{"name":"small_asteroid","path":"sprites/small_asteroid/small_asteroid.yy",},"order":1,},
     {"id":{"name":"big_asteroid","path":"sprites/big_asteroid/big_asteroid.yy",},"order":3,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"game","path":"rooms/game/game.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -19,7 +20,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"game","path":"rooms/game/game.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
