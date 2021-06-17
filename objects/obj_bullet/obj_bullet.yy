@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "ship",
-    "path": "sprites/ship/ship.yy",
+    "name": "bullet",
+    "path": "sprites/bullet/bullet.yy",
   },
   "solid": false,
   "visible": true,
@@ -19,9 +19,14 @@
   "physicsFriction": 0.2,
   "physicsStartAwake": true,
   "physicsKinematic": false,
-  "physicsShapePoints": [],
+  "physicsShapePoints": [
+    {"x":0.0,"y":0.0,},
+    {"x":2.0,"y":0.0,},
+    {"x":2.0,"y":2.0,},
+    {"x":0.0,"y":2.0,},
+  ],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
@@ -31,7 +36,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_ship",
+  "name": "obj_bullet",
   "tags": [],
   "resourceType": "GMObject",
 }
