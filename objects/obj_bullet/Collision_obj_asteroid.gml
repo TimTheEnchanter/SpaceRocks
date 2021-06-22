@@ -2,6 +2,8 @@
 // You can write your code in this editor
 instance_destroy();
 
+score += 100;
+
 with(other){
 	instance_destroy();
 	
