@@ -1,5 +1,6 @@
 if(room == game)
 {
+	audio_play_sound(msc_song, 2, true);
 	repeat(6)
 	{
 		var xx = choose(

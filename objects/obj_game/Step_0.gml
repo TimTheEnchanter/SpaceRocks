@@ -18,10 +18,12 @@ if(room == game)
 	if(score >= 1000)
 	{
 		room_goto(win);	
+		audio_play_sound(snd_win, 1, false);
 	}
 
 	if(lives <= 0)
 	{
-		room_goto(lose);	
+		room_goto(lose);
+		audio_play_sound(snd_lose, 1, false);
 	}
 }

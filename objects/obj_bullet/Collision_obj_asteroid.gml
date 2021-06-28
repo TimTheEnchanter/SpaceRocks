@@ -2,7 +2,9 @@
 // You can write your code in this editor
 instance_destroy();
 
-score += 100;
+score += 10;
+
+audio_play_sound(snd_die, 1, false);
 
 with(other){
 	instance_destroy();
